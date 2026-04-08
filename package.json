@@ -12,6 +12,7 @@
     "@clerk/nextjs": "^6.38.2",
     "@clerk/themes": "^2.4.55",
     "ai": "^6.0.103",
+    "axios": "^1.15.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.45.1",
