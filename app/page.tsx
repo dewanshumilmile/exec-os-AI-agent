@@ -6,14 +6,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import {
-  PricingTable,
   SignedIn,
   SignedOut,
   SignInButton,
   SignUpButton,
   UserButton,
 } from "@clerk/nextjs";
-import { dark } from "@clerk/themes";
 import Link from "next/link";
 
 export default function Home() {
@@ -55,20 +53,16 @@ export default function Home() {
             Your Autonomous Executive <br />
             Assistant
           </h1>
-
           <p className="hero-description">
             Clears your inbox, sends emails, manages your calendar, all from
             your favorite chat app.
           </p>
           <div className="hero-buttons">
-            <Link href="/sign-up">
+            <Link href="/dashboard">
               <Button size="lg" className="text-lg">
-                Start Free Trial
+                Get Started
               </Button>
             </Link>
-            <Button size="lg" variant="outline" className="text-lg">
-              See How It Works
-            </Button>
           </div>
         </div>
       </section>
